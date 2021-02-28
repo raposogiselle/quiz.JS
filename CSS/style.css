@@ -1,0 +1,67 @@
+
+
+*{
+    font-family: 'Cutive Mono', monospace;;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/markus-spiske.jpg");
+    background-size: cover;
+    background-position: center center;
+    font-family: "Josefin", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BCB700;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    background-color: #001F2D;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
+    
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #264F59;
+    border: none;
+    color: #BCB700;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 2rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+button:hover {
+    background-color: hsl(192, 53%, 49%);
+}
