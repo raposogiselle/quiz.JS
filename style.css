@@ -82,6 +82,21 @@ h2 {
    transform: none;
 }
 
+#highscore-btn {
+    background: #BCB700;
+    color: black; 
+}
+
+#highscore-btn:hover{
+    box-shadow: 0 0.4rem 0 rgba(255, 255, 0, 0.5);
+}
+.fa-trophy {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+
+
 /*End Page CSS*/
 
 .end-form-container {
